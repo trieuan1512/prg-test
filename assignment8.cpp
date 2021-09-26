@@ -1,11 +1,5 @@
 #include <iostream>
 using namespace std;
-void nhaparray(int a[],int n){
-    cout << "Elements of array: ";
-    for (int i=0; i <n;i++){
-        cin >> a[i];
-    }
-}
 
 int checknumb (int a[],int n,int valuecheck){
     for (int i=0;i<n;i++){
